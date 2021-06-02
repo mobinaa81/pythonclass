@@ -22,7 +22,7 @@ elif amaliaat == "/":
         print("adad taqsim bar 0? :)")
 
 elif amaliaat == "**":
-    print("mishe" ,adad_aval % adad_dovom)
+    print("mishe" ,adad_aval ** adad_dovom)
 
 else :
     print("motasefam doostam ino balad nistam:(")
