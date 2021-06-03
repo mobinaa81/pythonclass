@@ -1,5 +1,6 @@
-def sen ():
-    sal = int(input(("che sali motevaled shodi?\n")))
-    print( 1400 - sal )
+def sen (sal_tavalod):
+    print( 1400 - sal_tavalod )
+    
+sal_tavalod = int(input(("che sali motevaled shodi?\n")))
 
-sen()
+sen(sal_tavalod)
