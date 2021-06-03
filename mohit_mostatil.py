@@ -1,4 +1,6 @@
 def mohit_mostatil (tool , arz):
     mohit = (tool + arz) * 2
     print (mohit)
-mohit_mostatil (12 , 6)
+tool = int(input("tool ra vared kon\n"))
+arz = int(input("arz ra vared kon\n"))
+mohit_mostatil (tool , arz)
