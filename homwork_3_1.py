@@ -37,7 +37,7 @@ def entekhab(shekl, amaliat):
     elif shekl == "mosalas" and amaliat == "masahat":
         ghaede = int(input("meghdar ghaede chand ast?\n"))
         ertefa = int(input("meghdar ertefa chand ast?\n"))
-        masahat = (ertefa * ghaede)
+        masahat = (ertefa * ghaede) / 2
         return masahat
         #-------------------------------
     elif shekl == "dayere" and amaliat == "mohit":
