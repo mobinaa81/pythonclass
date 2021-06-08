@@ -4,19 +4,19 @@ adad2 = float(input("hala adad dovvom ra vared konid \n"))
 amaliat = input("khoob hala chikareshon konam?  + jame  - tafriq  * zarb  \
 / taqsim  ** tavan\n")
 #______________________________________________________________
- def amaliaat (adad1 , adad2 , amaliat):
+def amaliaat (adad1 , adad2 , amaliat):
     if amaliat == "+":
-        return adad_aval + adad_dovom
+        return adad1 + adad2
     elif amaliat == "-":
-        return adad_aval - adad_dovom
-    elif amaliat = " * ":
-        return adad_aval * adad_dovom
-    elif amaliat == "\":
-        return adad_aval \ adad_dovom
+        return adad1 - adad2
+    elif amaliat == "*":
+        return adad1 * adad2
+    elif amaliat == "/":
+        return adad1 / adad2
     elif amaliat == "**":
-        return adad_aval ** adad_dovom
-    else
+        return adad1 ** adad2
+    else :
         print("balad nistam:(")
 #___________________________________________________________________
-javab = amaliaat(adad_aval, adad_dovom ,amaliat)
-print("pasokh amaliat shoma ="{javab} "ast.")
+javab = amaliaat(adad1, adad2 ,amaliat)
+print(f"pasokh amaliat shoma ={javab}")
