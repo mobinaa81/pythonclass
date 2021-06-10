@@ -6,5 +6,6 @@ while adad <= 1000 :
         adad +=1
     elif command == "kamtar" :
         adad -=1
-    else :
-        print("bye")
+    elif command == "hichkdom" :
+        break
+print("bye")
